@@ -3,6 +3,8 @@ assets/
 backups/
 banned-ips.json
 banned-players.json
+config/jei/worldSettings.cfg
+config/splash.properties
 coremods/
 crafttweaker.log
 crash-reports/
