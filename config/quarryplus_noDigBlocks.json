@@ -1,23 +1,13 @@
 [
   {
     "blockstate": {
-      "name": "minecraft:stone",
+      "name": "minecraft:red_sandstone",
       "properties": {
-        "variant": "stone"
+        "type": "red_sandstone"
       }
     },
     "ignoreProperty": false,
     "ignoreMeta": true
-  },
-  {
-    "blockstate": {
-      "name": "minecraft:grass",
-      "properties": {
-        "snowy": "false"
-      }
-    },
-    "ignoreProperty": true,
-    "ignoreMeta": false
   },
   {
     "blockstate": {
@@ -37,9 +27,9 @@
   },
   {
     "blockstate": {
-      "name": "minecraft:red_sandstone",
+      "name": "minecraft:sandstone",
       "properties": {
-        "type": "red_sandstone"
+        "type": "sandstone"
       }
     },
     "ignoreProperty": false,
@@ -58,9 +48,19 @@
   },
   {
     "blockstate": {
-      "name": "minecraft:sandstone",
+      "name": "minecraft:grass",
       "properties": {
-        "type": "sandstone"
+        "snowy": "false"
+      }
+    },
+    "ignoreProperty": true,
+    "ignoreMeta": false
+  },
+  {
+    "blockstate": {
+      "name": "minecraft:stone",
+      "properties": {
+        "variant": "stone"
       }
     },
     "ignoreProperty": false,
