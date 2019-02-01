@@ -1,5 +1,3 @@
-import crafttweaker.item.IItemDefinition;
-
 print("Adding stone variants to the ore dictionary for stone.");
 val stoneOreDict = <ore:stone>;
 val stoneVariants = <minecraft:stone>.definition;
