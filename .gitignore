@@ -3,6 +3,7 @@ assets/
 backups/
 banned-ips.json
 banned-players.json
+config/AppliedEnergistics2/items.csv
 config/jei/worldSettings.cfg
 config/splash.properties
 coremods/
