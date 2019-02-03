@@ -1,3 +1,4 @@
+#norun
 #modloaded armorhealth
 #This is to overcome armorhealth mod not correctly saving the added health on world load.
 
