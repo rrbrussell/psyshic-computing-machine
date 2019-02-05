@@ -1,4 +1,4 @@
-#modloaded appliedenergistics thermalexpansion modtweaker
+#modloaded appliedenergistics2 thermalexpansion
 import mods.thermalexpansion.Insolator;
 import mods.thermalexpansion.Transposer;
 
@@ -14,9 +14,11 @@ val dustNether = <ore:dustNetherQuartz>;
 val dustFluix = <ore:dustFluix>;
 
 #remove a way to expensive purification recipe.
-Insolator.removeRecipe(<appliedenergistics2:crystal_seed:*>, glowstone);
+Insolator.removeRecipe(certusSeed, glowstone);
+Insolator.removeRecipe(netherSeed, glowstone);
+Insolator.removeRecipe(fluixSeed, glowstone);
 
 #the fluid transposer is a more reasonable option.
-#Transposer.addFillRecipe(pureCertus * 2, dustCertus, <liquid:water> * 1000, 1000);
-#Transposer.addFillRecipe(pureNether * 2, dustNether, <liquid:water> * 1000, 1000);
-#Transposer.addFillRecipe(pureNether * 2, dustFluix, <liquid:water> * 1000, 1000);
+Transposer.addFillRecipe(pureCertus, certusSeed, <liquid:water> * 1000, 1000);
+Transposer.addFillRecipe(pureNether, netherSeed, <liquid:water> * 1000, 1000);
+Transposer.addFillRecipe(pureFluix, fluixSeed, <liquid:water> * 1000, 1000);
