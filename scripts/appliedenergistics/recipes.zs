@@ -67,3 +67,22 @@ recipes.removeByRecipeName("galacticraftcore:enclosed");
 recipes.addShaped("gcc-enclosed_ae_cable", <galacticraftcore:enclosed:13>,
 [[<galacticraftcore:basic_block_core:4>, aeCables, <galacticraftcore:basic_block_core:4>]]);
 }
+
+# Make the Crafing CPUs disassmbleable so you can upgrade them.
+recipes.addShapeless("ae2-reverse_cpu_crafting_accelerator", <appliedenergistics2:material:24>,
+[<appliedenergistics2:crafting_accelerator>.transformReplace(<appliedenergistics2:crafting_unit>)]);
+
+recipes.addShapeless("ae2-reverse_cpu_crafting_storage_1k", <appliedenergistics2:material:35>,
+[<appliedenergistics2:crafting_storage_1k>.transformReplace(<appliedenergistics2:crafting_unit>)]);
+
+recipes.addShapeless("ae2-reverse_cpu_crafting_storage_4k", <appliedenergistics2:material:36>,
+[<appliedenergistics2:crafting_storage_4k>.transformReplace(<appliedenergistics2:crafting_unit>)]);
+
+recipes.addShapeless("ae2-reverse_cpu_crafting_storage_16k", <appliedenergistics2:material:37>,
+[<appliedenergistics2:crafting_storage_16k>.transformReplace(<appliedenergistics2:crafting_unit>)]);
+
+recipes.addShapeless("ae2-reverse_cpu_crafting_storage_64k", <appliedenergistics2:material:38>,
+[<appliedenergistics2:crafting_storage_64k>.transformReplace(<appliedenergistics2:crafting_unit>)]);
+
+recipes.addShapeless("ae2-reverse_cpu_crafting_monitor", <appliedenergistics2:part:400>,
+[<appliedenergistics2:crafting_monitor>.transformReplace(<appliedenergistics2:crafting_unit>)]);
