@@ -9,6 +9,6 @@ if(loadedMods has "tconstruct") {
 	}
 	for blockGlassItem in <ore:blockGlass>.items
 	{
-		Crucible.addRecipe(<liquid:glass> * 1000, blockGlassItem, 32000);
+		Crucible.addRecipe(<liquid:glass> * 1000, blockGlassItem, 8000);
 	}
 }
